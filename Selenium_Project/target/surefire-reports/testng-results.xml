@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T18:46:44 IST" name="Surefire suite" finished-at="2025-09-04T18:47:29 IST" duration-ms="45292">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T18:46:44 IST" name="Surefire test" finished-at="2025-09-04T18:47:29 IST" duration-ms="45292">
+      <class name="Com.Selenium.DataProviderTestNG">
+        <test-method signature="lunchBrowser()[pri:0, instance:Com.Selenium.DataProviderTestNG@3c153a1]" started-at="2025-09-04T18:46:44 IST" name="lunchBrowser" finished-at="2025-09-04T18:47:27 IST" duration-ms="42922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="signInData(java.lang.String, java.lang.String)[pri:0, instance:Com.Selenium.DataProviderTestNG@3c153a1]" started-at="2025-09-04T18:47:27 IST" name="signInData" data-provider="testData" finished-at="2025-09-04T18:47:28 IST" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raghu@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInData -->
+        <test-method signature="signInData(java.lang.String, java.lang.String)[pri:0, instance:Com.Selenium.DataProviderTestNG@3c153a1]" started-at="2025-09-04T18:47:28 IST" name="signInData" data-provider="testData" finished-at="2025-09-04T18:47:29 IST" duration-ms="714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Riya@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInData -->
+      </class> <!-- Com.Selenium.DataProviderTestNG -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

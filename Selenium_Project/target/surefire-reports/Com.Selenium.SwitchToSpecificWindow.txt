@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Com.Selenium.SwitchToSpecificWindow
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 s -- in Com.Selenium.SwitchToSpecificWindow

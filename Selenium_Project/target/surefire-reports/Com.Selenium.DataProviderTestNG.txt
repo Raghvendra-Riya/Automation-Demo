@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Com.Selenium.DataProviderTestNG
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.16 s -- in Com.Selenium.DataProviderTestNG

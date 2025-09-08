@@ -1,0 +1,10 @@
+Com\Selenium\LoginTestPom.class
+Com\Selenium\LoginPageWithPageFactory.class
+Com\Selenium\Selenium_Challenge.class
+Com\Selenium\ParameterConceptTestNG.class
+Com\Selenium\PropertiesFile.class
+Com\Selenium\PropertiesFileWithPageFactory.class
+Com\Selenium\SwitchToSpecificWindow.class
+Com\Selenium\LoginPageWithOutPageFactory.class
+Com\Selenium\DataProviderTestNG.class
+Com\Selenium\GroupsConceptTestNG.class
