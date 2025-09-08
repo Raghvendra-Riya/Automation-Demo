@@ -1,5 +1,6 @@
 package Com.Selenium;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,8 +26,7 @@ public class SwitchToSpecificWindow {
         driver.findElement(By.xpath("//a[contains(@href,'https://www.youtube.com/c/OrangeHRMInc')]")).click();
 
         List<String> windlist=new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(windlist.get(2));
-        System.out.println(driver.getTitle());
+          driver.switchTo().window(windlist.get(3));
 	}
-
 }
+

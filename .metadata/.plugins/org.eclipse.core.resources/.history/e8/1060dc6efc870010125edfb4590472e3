@@ -1,0 +1,22 @@
+package Com.Selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class LoginWithOutPageFactory {
+
+	WebDriver driver;
+	
+	@Test
+	public void setUp() {
+		
+		System.setProperty("Webdriver.chrome.driver","C:\\Users\\HP\\Documents\\chromedriver.exe");
+		
+	}
+	
+	
+	@Test
+	public void loginCredential() {
+		
+	}
+}

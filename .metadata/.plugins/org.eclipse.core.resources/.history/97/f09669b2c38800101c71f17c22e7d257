@@ -1,0 +1,20 @@
+package Com.Selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SwitchToSpecificWindow {
+
+	public static void main(String[] args) {
+		 
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Documents\\chromedriver.exe");
+        WebDriver driver=new ChromeDriver();
+        driver.manage().window().maximize();
+        
+        driver.get("https://opensource-demo.orangehrmlive.com/web/auth/login");
+        
+        driver.findElement(By.className("oxd-icon orangehrm-sm-icon"));
+	}
+
+}

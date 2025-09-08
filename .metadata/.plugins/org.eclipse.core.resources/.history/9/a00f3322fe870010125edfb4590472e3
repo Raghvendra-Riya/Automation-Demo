@@ -1,0 +1,32 @@
+package Com.Selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class LoginWithOutPageFactory {
+
+	WebDriver driver;
+	
+	@Test(priority=0)
+	public void setUp() {
+		
+	 	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Documents\\chromedriver.exe");
+		 driver=new ChromeDriver();
+		 
+		 driver.get("https://www.saucedemo.com/");
+		 driver.manage().window().maximize();
+	}
+	
+	
+	@Test(priority=1)
+	public void loginCredential() {
+		
+	 LoginPageForPom fatchData=new LoginPageForPom(driver);
+	 
+	 fatchData.getUserName("raghu");
+	 fatchData.getPassord("1234");
+	 fatchData.clickOnLoginBtn();
+	 driver.close();
+	}
+}

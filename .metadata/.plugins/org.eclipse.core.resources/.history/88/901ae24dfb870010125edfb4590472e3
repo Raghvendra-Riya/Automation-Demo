@@ -1,0 +1,13 @@
+package Com.Selenium;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPageForPom {
+
+	WebDriver driver;
+	
+	public LoginPageForPom(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+}

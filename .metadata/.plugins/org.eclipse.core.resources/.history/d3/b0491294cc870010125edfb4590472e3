@@ -1,0 +1,17 @@
+package Com.Selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class DataProviderTestNG {
+
+   @Test
+	public void lunchBrowser() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Documents\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.browserstack.com/users/sign_in");
+	
+	}
+}
